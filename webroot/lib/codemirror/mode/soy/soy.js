@@ -138,7 +138,7 @@
             return "comment";
 
           case "templ-def":
-            if (match = stream.match(/^\.?([\w]+(?!\.[\w]+)*)/)) {
+            if (match = stream.match("/^\.?([\w]+(?!\.[\w]+)*)/")) {
               state.templates = prepend(state.templates, match[1]);
               state.scopes = prepend(state.scopes, state.variables);
               state.soyState.pop();

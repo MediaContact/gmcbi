@@ -4,9 +4,7 @@
   touch-action: auto;
   overflow: hidden !important;
   -ms-overflow-style: none; }
-  @supports (-ms-overflow-style: none) {
-    .ps {
-      overflow: auto !important; } }
+  
   @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     .ps {
       overflow: auto !important; } }
